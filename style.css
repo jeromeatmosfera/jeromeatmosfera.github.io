@@ -1,4 +1,16 @@
-#motto h5{
-    font-style: italic;
-}
-
+#motto h5
+    {
+        font-style: italic;
+    }
+#profilepic img
+    {
+        width: 200px; height: 200px;
+    }
+#tellme p
+    {
+        font-style: italic;
+    }
+#bbp img
+    {
+        width: 75px; height: 75px;
+    }
