@@ -1,23 +1,32 @@
-#motto h5
-    {
-        font-style: italic; 
-        text-align: center;
-    }
-#topname h1
+#motto h6 
     {
         text-align: center;
+        font-style: italic;
+        background-color: #f1f1f1;
+        padding: 5px;
+        font-size: 110%;
     }
-#profilepic img
+#topname 
     {
-        width: 250px; height: 250px;
-        
+        padding: 30px;
+        text-align: center;
     }
-#tellme p
+    h1 
+    {
+        font-size: 90px;
+    }
+    p
     {
         font-style: italic;
-        text-align: center;
     }
-#bbp img
+
+#heading
     {
-        width: 75px; height: 75px;
+
     }
+    img
+    {
+        width: 200px;
+        height: 200px;
+    }
+
