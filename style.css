@@ -1,32 +1,52 @@
-#motto h6 
-    {
-        text-align: center;
-        font-style: italic;
-        background-color: #f1f1f1;
-        padding: 5px;
-        font-size: 110%;
-    }
-#topname 
-    {
-        padding: 30px;
-        text-align: center;
-    }
-    h1 
-    {
-        font-size: 90px;
-    }
+#motto h6 { 
+    text-align: center;
+    font-style: italic;
+    background-color: #f1f1f1;
+    padding: 5px;
+    font-size: 110%; 
+}
+#topname {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+}
     p
     {
         font-style: italic;
     }
-
-#heading
+.column
     {
-
+        float: left;
+        padding: 10px;
     }
-    img
+.column.side 
     {
-        width: 200px;
-        height: 200px;
+        width: 25%;
     }
+    img{ width: 200px;
+        height: 200px;}
 
+.column.middle
+    {
+        width: 72%;
+    }
+#exp {
+    clear: both;
+}
+
+
+
+
+    @media screen and (max-width: 600px)
+    {
+     .column.side, .column.middle 
+     {
+        width: 100%;
+     }  
+    } 
+    {
+        
+    }
